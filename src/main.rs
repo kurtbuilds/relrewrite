@@ -3,8 +3,6 @@ use std::path::{Path, PathBuf};
 use anyhow::{Result};
 use walkdir::WalkDir;
 use clap::{Parser};
-use lazy_static::lazy_static;
-use regex::Regex;
 
 #[derive(Parser)]
 #[command(author, version, about)]
